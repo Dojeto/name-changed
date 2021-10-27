@@ -116,8 +116,25 @@ a:link, a:visited {
     border-radius: 78px;
     display: inline-block;
     position: fixed;
+    right: 137px;
   }
   
   a:hover, a:active {
+    background-color: rgb(65, 65, 65);
+  }
+.damn:link, .damn:visited {
+    background-color: #e00000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 78px;
+    display: inline-block;
+    position: relative;
+    top: 71px;
+    right: -53px;
+  }
+  
+  .damn:hover, .damn:active {
     background-color: rgb(65, 65, 65);
   }
