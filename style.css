@@ -72,6 +72,30 @@ body{
    }
    .profile h3{
     color:rgb(255, 255, 255);
-    margin:1px 0;
+    margin:-6px 0;
     font-family: 'Shadows Into Light', cursive;
+    display:inline;
+    position:relative;
+    /* font:inherit;
+    color:inherit; */
+    line-height:inherit
    }
+   #typing {
+
+    width: 0ch;
+    color: white;
+    float: left;
+    right: -20px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) 1s infinite alternate;
+    animation-duration: 2.5s;
+}
+   @keyframes typing {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 20ch;
+    }
+}
