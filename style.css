@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgba(36,36,36,255);
+}
+
+.bg{
+    position: fixed;
+    width: 83px;
+    height: 36px;
+    top: 8px;
+    left: 14px;
+    background: #ffffff1e;
+    border-radius: 28px;
+}
+
+.profile {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding:30px 0;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+   }
+   .profile-img {
+    position:relative;
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    margin:auto;
+    overflow:hidden;
+    box-shadow:0 2px 5px 1px rgba(0,0,0,0.2);
+    transition:all 0.3s ease-in;
+    z-index:2;
+    border:2px solid rgb(255, 255, 255);
+    top:-3vw;
+   }
+   .profile-img img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+   }
+   .overlay {
+    position:fixed;
+    height:100vh;
+    width:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.3);
+    display:none;
+    z-index:1;
+   }
+   .profile-img:hover {
+     border-radius:50%;
+     transform:scale(1.5);
+   }
+   .profile-img:hover + .overlay {
+    display:block;
+   }
+   
+   .profile h1{
+    margin-top:5px;
+    font-size:26px;
+    letter-spacing:1px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+   }
+   .profile h3{
+    color:rgb(255, 255, 255);
+    margin:1px 0;
+    font-family: 'Shadows Into Light', cursive;
+   }
