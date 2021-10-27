@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(36,36,36,255);
+}
+
+img{
+      position: relative;
+      top: 65px;
+      left: 81px;
+      width: 55%;
+      height: 55%;
+      border: 5px solid rgb(255, 255, 255);
+      border-radius: 15%;
+  }
